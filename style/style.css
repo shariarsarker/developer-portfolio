@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+
+/* header and navigation styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+.btn-primary{
+    background: #FD6E0A;
+    color: #ffffff;
+    border: 0;
+    border-radius: 5px;
+    height: 64px;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: 700;
+}
